@@ -16,6 +16,9 @@
 		67F24B4D1F0C88B600841EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F24B4B1F0C88B600841EAA /* LaunchScreen.storyboard */; };
 		67F24B581F0C88B600841EAA /* HwTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F24B571F0C88B600841EAA /* HwTestProjectTests.m */; };
 		67F24B631F0C88B600841EAA /* HwTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F24B621F0C88B600841EAA /* HwTestProjectUITests.m */; };
+		67F24B731F0C89C300841EAA /* TestCase in Resources */ = {isa = PBXBuildFile; fileRef = 67F24B721F0C89C300841EAA /* TestCase */; };
+		67F24B791F0C8A5800841EAA /* HwCurrencyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F24B781F0C8A5800841EAA /* HwCurrencyUtil.m */; };
+		FAE9F63A39CAB06ABC88CF15 /* libPods-HwTestProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 770457B8B5C1518D93CE7F71 /* libPods-HwTestProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A0CCDE25EF2386D10FDC9E9 /* Pods-HwTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HwTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HwTestProject/Pods-HwTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		67F24B371F0C88B600841EAA /* HwTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HwTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F24B3B1F0C88B600841EAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67F24B3D1F0C88B600841EAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +57,12 @@
 		67F24B5E1F0C88B600841EAA /* HwTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HwTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67F24B621F0C88B600841EAA /* HwTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HwTestProjectUITests.m; sourceTree = "<group>"; };
 		67F24B641F0C88B600841EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F24B711F0C892900841EAA /* HwTestProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HwTestProject.pch; sourceTree = "<group>"; };
+		67F24B721F0C89C300841EAA /* TestCase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestCase; sourceTree = "<group>"; };
+		67F24B771F0C8A5800841EAA /* HwCurrencyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HwCurrencyUtil.h; sourceTree = "<group>"; };
+		67F24B781F0C8A5800841EAA /* HwCurrencyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HwCurrencyUtil.m; sourceTree = "<group>"; };
+		770457B8B5C1518D93CE7F71 /* libPods-HwTestProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HwTestProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61C08FF0AE5E9AD10FFB707 /* Pods-HwTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HwTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HwTestProject/Pods-HwTestProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9F63A39CAB06ABC88CF15 /* libPods-HwTestProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B8F07FE94EC6021FDED8F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				770457B8B5C1518D93CE7F71 /* libPods-HwTestProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		67F24B2E1F0C88B600841EAA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +106,8 @@
 				67F24B561F0C88B600841EAA /* HwTestProjectTests */,
 				67F24B611F0C88B600841EAA /* HwTestProjectUITests */,
 				67F24B381F0C88B600841EAA /* Products */,
+				C5F9F47438C9FF338651A31A /* Pods */,
+				5B8F07FE94EC6021FDED8F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +124,8 @@
 		67F24B391F0C88B600841EAA /* HwTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				67F24B741F0C89EC00841EAA /* TestFramework */,
+				67F24B721F0C89C300841EAA /* TestCase */,
 				67F24B3D1F0C88B600841EAA /* AppDelegate.h */,
 				67F24B3E1F0C88B600841EAA /* AppDelegate.m */,
 				67F24B401F0C88B600841EAA /* ViewController.h */,
@@ -121,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				67F24B3B1F0C88B600841EAA /* main.m */,
+				67F24B711F0C892900841EAA /* HwTestProject.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +167,40 @@
 			path = HwTestProjectUITests;
 			sourceTree = "<group>";
 		};
+		67F24B741F0C89EC00841EAA /* TestFramework */ = {
+			isa = PBXGroup;
+			children = (
+				67F24B761F0C8A1C00841EAA /* Wrker */,
+				67F24B751F0C8A0400841EAA /* Tools */,
+			);
+			path = TestFramework;
+			sourceTree = "<group>";
+		};
+		67F24B751F0C8A0400841EAA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				67F24B771F0C8A5800841EAA /* HwCurrencyUtil.h */,
+				67F24B781F0C8A5800841EAA /* HwCurrencyUtil.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		67F24B761F0C8A1C00841EAA /* Wrker */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wrker;
+			sourceTree = "<group>";
+		};
+		C5F9F47438C9FF338651A31A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A0CCDE25EF2386D10FDC9E9 /* Pods-HwTestProject.debug.xcconfig */,
+				E61C08FF0AE5E9AD10FFB707 /* Pods-HwTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67F24B671F0C88B600841EAA /* Build configuration list for PBXNativeTarget "HwTestProject" */;
 			buildPhases = (
+				B8AD80353B817FBD8C004064 /* [CP] Check Pods Manifest.lock */,
 				67F24B331F0C88B600841EAA /* Sources */,
 				67F24B341F0C88B600841EAA /* Frameworks */,
 				67F24B351F0C88B600841EAA /* Resources */,
+				2C67DDB555EBE349DB5B42B9 /* [CP] Embed Pods Frameworks */,
+				FEF2E7F2B69EE8AB04172C57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F24B731F0C89C300841EAA /* TestCase in Resources */,
 				67F24B4D1F0C88B600841EAA /* LaunchScreen.storyboard in Resources */,
 				67F24B4A1F0C88B600841EAA /* Assets.xcassets in Resources */,
 				67F24B451F0C88B600841EAA /* Main.storyboard in Resources */,
@@ -271,6 +333,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C67DDB555EBE349DB5B42B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HwTestProject/Pods-HwTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AD80353B817FBD8C004064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF2E7F2B69EE8AB04172C57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HwTestProject/Pods-HwTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		67F24B331F0C88B600841EAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -280,6 +390,7 @@
 				67F24B421F0C88B600841EAA /* ViewController.m in Sources */,
 				67F24B3F1F0C88B600841EAA /* AppDelegate.m in Sources */,
 				67F24B3C1F0C88B600841EAA /* main.m in Sources */,
+				67F24B791F0C8A5800841EAA /* HwCurrencyUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +537,7 @@
 		};
 		67F24B681F0C88B600841EAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0CCDE25EF2386D10FDC9E9 /* Pods-HwTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HwTestProject/Info.plist;
@@ -437,6 +549,7 @@
 		};
 		67F24B691F0C88B600841EAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61C08FF0AE5E9AD10FFB707 /* Pods-HwTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HwTestProject/Info.plist;
